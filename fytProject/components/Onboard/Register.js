@@ -105,13 +105,6 @@ export default class Register extends Component {
                 <Text>Sign Up</Text>
               </Button>
               <View style={{ padding: 5 }} />
-              <Button
-                rounded
-                onPress={() => this.props.navigation.navigate("Intro")}
-                style={{ alignSelf: "center" }}
-              >
-                <Text>Next</Text>
-              </Button>
             </View>
           </View>
         </Container>
