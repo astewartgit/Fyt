@@ -92,6 +92,7 @@ class ExercisePanel extends React.Component {
       this.props.selectedWorkout
     );
     this.setState({
+      expand: true,
       leftActionActivated: false
     });
   }
